@@ -1,6 +1,9 @@
 #include <stdio.h>
+
+ printf("Hola chicos, vamos a tratar de mejorar este cagao de programa");
+  input();  
 int main ()
-int agenta(char nombre, int telefono, int edad)
+int agenta(char nombre, int telefono, int edad, int direccion)
 
 {	
 	printf("\n Nombre: ");
@@ -8,21 +11,18 @@ int agenta(char nombre, int telefono, int edad)
 	printf("\n Numero de telefono: ");
 	scanf("%d", telefono);
 	printf("\n Edad: ");
-	scanf("%d", edad);	
+	scanf("%d", edad);
+	printf("\n direccion: ");
+	scanf("%d", direccion);
 	
 	return 0;
 }
 void main (void)
 {
+
 	printf("Te llamas %s, y tienes %d y tu telefono es %d", nombre , edad, telefono);
-
-
-
 }
-
 {
-
-	
 	printf ("escribe un numero ");
 	scanf ("%d", &numero);
 	
@@ -36,4 +36,7 @@ void main (void)
 
 
 return 0;
+=======
+	printf("Te llamas %s, y tienes %d , tu telefono es %d y tu direccion es €d", nombre , edad, telefono, direccion);
+
 }
