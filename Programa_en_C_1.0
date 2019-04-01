@@ -15,4 +15,25 @@ int agenta(char nombre, int telefono, int edad)
 void main (void)
 {
 	printf("Te llamas %s, y tienes %d y tu telefono es %d", nombre , edad, telefono);
+
+
+
+}
+
+{
+
+	
+	printf ("escribe un numero ");
+	scanf ("%d", &numero);
+	
+	
+	{
+		if ( numero % 2 == 0 )
+        printf( "El número es par. \n" );
+		else
+			printf ("El número es impar.\n");
+	}
+
+
+return 0;
 }
