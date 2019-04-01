@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main ()
 int agenta(char nombre, int telefono, int edad)
-
+//Propongo volver al nombre anterior de proyecto_colaboratiovo , arrasa ese proyecto
 {	
 	printf("\n Nombre: ");
 	scanf("%s", &nombre);
