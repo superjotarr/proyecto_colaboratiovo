@@ -1,7 +1,18 @@
 #include <stdio.h>
+int main ()
+int agenta(char nombre, int telefono, int edad)
 
-void main(void)
+{	
+	printf("\n Nombre: ");
+	scanf("%s", &nombre);
+	printf("\n Numero de telefono: ");
+	scanf("%d", telefono);
+	printf("\n Edad: ");
+	scanf("%d", edad);	
+	
+	return 0;
+}
+void main (void)
 {
-  printf("Hola chicos, vamos a tratar de mejorar este cagao de programa");
-  input();
+	printf("Te llamas %s, y tienes %d y tu telefono es %d", nombre , edad, telefono);
 }
