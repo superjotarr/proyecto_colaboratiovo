@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+void main(void)
+{
+  printf("Hola chicos, vamos a tratar de mejorar este cagao de programa");
+  input();
+}
